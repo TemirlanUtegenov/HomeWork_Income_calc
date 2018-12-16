@@ -15,10 +15,3 @@ def calculate_income(summ, rate, period):
         summ = summ + (summ * temp)
 
     return round(summ)
-
-
-summ = 700000
-rate = 8
-period = 12
-
-print('Income is ', calculate_income(summ, rate, period))
